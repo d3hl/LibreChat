@@ -1,0 +1,49 @@
+# For more information, see the Configuration Guide:
+# https://www.librechat.ai/docs/configuration/librechat_yaml
+ 
+# Configuration version (required)
+version: 1.3.5
+# This setting caches the config file for faster loading across app lifecycle
+cache: true
+
+mcpServers:
+  Meraki-MCP-Server:
+    type: streamable-http
+    url: http://meraki-mcp-server:8000/mcp
+    timeout: 60000
+  Netbox-MCP-Server:
+    type: streamable-http
+    url: http://netbox-mcp-server:8001/mcp
+    timeout: 60000
+  CatC-MCP-Server:
+    type: streamable-http
+    url: http://catc-mcp-server:8002/mcp
+    timeout: 60000
+  IOS-XE-MCP-Server:
+    type: streamable-http
+    url: http://ios-xe-mcp-server:8003/mcp
+    timeout: 60000
+  ThousandEyes-MCP-Server:
+    type: streamable-http
+    url: http://thousandeyes-mcp-server:8004/mcp
+    timeout: 60000
+  ISE-MCP-Server:
+    type: streamable-http
+    url: http://ise-mcp-server:8005/mcp
+    timeout: 60000
+  Splunk-MCP-Server:
+    type: streamable-http
+    url: http://splunk-mcp-server:8006/mcp
+    timeout: 60000
+  Prometheus-MCP-Server:
+    type: streamable-http
+    url: http://prometheus-mcp-server:8007/mcp
+    timeout: 60000
+  ClickHouse-MCP-Server:
+    type: streamable-http
+    url: http://clickhouse-mcp-server:8008/mcp
+    timeout: 60000
+  GitLab-MCP-Server:
+    type: streamable-http
+    url: http://gitlab-mcp-server:8009/mcp
+    timeout: 60000
