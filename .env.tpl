@@ -152,7 +152,7 @@ PROXY=
 # ANYSCALE_API_KEY=
 # APIPIE_API_KEY=
 # COHERE_API_KEY=
-DEEPSEEK_API_KEY="op://AI/DEEPSEEK_LIBRE/api key"
+DEEPSEEK_API_KEY="op://d3HLPRV/DEEPSEEK_LIBRE/api key"
 # DATABRICKS_API_KEY=
 # FIREWORKS_API_KEY=
 # GROQ_API_KEY=
@@ -317,7 +317,7 @@ GOOGLE_KEY=user_provided
 # OpenAI     #
 #============#
 
-OPENAI_API_KEY="op://AI/Openai_Librechat/api key"
+OPENAI_API_KEY="op://d3HLPRV/Openai_Librechat/api key"
 # OPENAI_MODELS=gpt-5,gpt-5-codex,gpt-5-mini,gpt-5-nano,o3-pro,o3,o4-mini,gpt-4.1,gpt-4.1-mini,gpt-4.1-nano,o3-mini,o1-pro,o1,gpt-4o,gpt-4o-mini
 
 DEBUG_OPENAI=false
