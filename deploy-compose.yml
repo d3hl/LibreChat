@@ -37,8 +37,8 @@ services:
     image: nginx:1.27.0-alpine
     container_name: LibreChat-NGINX
     ports:
-      - 8484:84
-      - 6443:443
+      - 80:80
+      - 443:443
     depends_on:
       - api
     restart: always
