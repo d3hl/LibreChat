@@ -9,7 +9,7 @@ cache: true
 mcpServers:
   IOS-XE-MCP-Server:
     type: streamable-http
-    url: http://ios-xe-mcp-server:8003/mcp
+    url: http://10.10.10.51:8003/mcp
     timeout: 60000
 mcpSettings:
   allowedDomains:
