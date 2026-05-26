@@ -16,4 +16,4 @@ mcpSettings:
     - 'host.docker.internal'
     - 'localhost'
     - '10.10.10.51'  
-    - 'draw.io'
+    - 'mcp.draw.io'
